@@ -1,8 +1,9 @@
 //
 //  AppDelegate.m
-//  NSData+MD5Digest
+//  NSData+SHA256Digest
 //
-//  Created by Francis Chong on 12年6月5日.
+//  Created by Hiroshi Kuwabara on 1/17/14.
+//  Copyright (c) 2014 Beenos. All rights reserved.
 //
 
 #import "AppDelegate.h"

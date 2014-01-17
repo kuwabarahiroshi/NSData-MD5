@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54CB2791157DD1FC00FBCF13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CB2790157DD1FC00FBCF13 /* UIKit.framework */; };
 		54CB2793157DD1FC00FBCF13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CB2792157DD1FC00FBCF13 /* Foundation.framework */; };
-		54CB2795157DD1FC00FBCF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CB2794157DD1FC00FBCF13 /* CoreGraphics.framework */; };
 		54CB27B3157DD73900FBCF13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CB27B0157DD73800FBCF13 /* AppDelegate.m */; };
-		54CB27B4157DD73900FBCF13 /* NSData+MD5Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CB27B2157DD73900FBCF13 /* NSData+MD5Digest.m */; };
+		54CB27B4157DD73900FBCF13 /* NSData+SHA256Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CB27B2157DD73900FBCF13 /* NSData+SHA256Digest.m */; };
 		54CB27B8157DD74700FBCF13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CB27B5157DD74700FBCF13 /* main.m */; };
 		54CB27BC157DD7CB00FBCF13 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 54CB27BA157DD75E00FBCF13 /* en.lproj */; };
+		68F6C3B41889235700401154 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F6C3B31889235700401154 /* UIKit.framework */; };
+		68F6C3B61889236000401154 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F6C3B51889236000401154 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		54CB278C157DD1FC00FBCF13 /* NSData+MD5Digest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSData+MD5Digest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		54CB2790157DD1FC00FBCF13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54CB278C157DD1FC00FBCF13 /* NSData+SHA256Digest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSData+SHA256Digest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54CB2792157DD1FC00FBCF13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		54CB2794157DD1FC00FBCF13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		54CB27AF157DD73800FBCF13 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "NSData+MD5Digest/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
-		54CB27B0157DD73800FBCF13 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "NSData+MD5Digest/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
-		54CB27B1157DD73900FBCF13 /* NSData+MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+MD5Digest.h"; path = "NSData+MD5Digest/NSData+MD5Digest.h"; sourceTree = SOURCE_ROOT; };
-		54CB27B2157DD73900FBCF13 /* NSData+MD5Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+MD5Digest.m"; path = "NSData+MD5Digest/NSData+MD5Digest.m"; sourceTree = SOURCE_ROOT; };
-		54CB27B5157DD74700FBCF13 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "NSData+MD5Digest/main.m"; sourceTree = SOURCE_ROOT; };
-		54CB27B6157DD74700FBCF13 /* NSData+MD5Digest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "NSData+MD5Digest-Info.plist"; path = "NSData+MD5Digest/NSData+MD5Digest-Info.plist"; sourceTree = SOURCE_ROOT; };
-		54CB27B7157DD74700FBCF13 /* NSData+MD5Digest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+MD5Digest-Prefix.pch"; path = "NSData+MD5Digest/NSData+MD5Digest-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		54CB27BA157DD75E00FBCF13 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en.lproj; path = "NSData+MD5Digest/en.lproj"; sourceTree = SOURCE_ROOT; };
+		54CB27AF157DD73800FBCF13 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "NSData+SHA256Digest/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		54CB27B0157DD73800FBCF13 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "NSData+SHA256Digest/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		54CB27B1157DD73900FBCF13 /* NSData+SHA256Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+SHA256Digest.h"; path = "NSData+SHA256Digest/NSData+SHA256Digest.h"; sourceTree = SOURCE_ROOT; };
+		54CB27B2157DD73900FBCF13 /* NSData+SHA256Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+SHA256Digest.m"; path = "NSData+SHA256Digest/NSData+SHA256Digest.m"; sourceTree = SOURCE_ROOT; };
+		54CB27B5157DD74700FBCF13 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "NSData+SHA256Digest/main.m"; sourceTree = SOURCE_ROOT; };
+		54CB27B6157DD74700FBCF13 /* NSData+SHA256Digest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "NSData+SHA256Digest-Info.plist"; path = "NSData+SHA256Digest/NSData+SHA256Digest-Info.plist"; sourceTree = SOURCE_ROOT; };
+		54CB27B7157DD74700FBCF13 /* NSData+SHA256Digest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+SHA256Digest-Prefix.pch"; path = "NSData+SHA256Digest/NSData+SHA256Digest-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		54CB27BA157DD75E00FBCF13 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en.lproj; path = "NSData+SHA256Digest/en.lproj"; sourceTree = SOURCE_ROOT; };
+		68F6C3B31889235700401154 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68F6C3B51889236000401154 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,9 +36,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54CB2791157DD1FC00FBCF13 /* UIKit.framework in Frameworks */,
+				68F6C3B61889236000401154 /* CoreGraphics.framework in Frameworks */,
+				68F6C3B41889235700401154 /* UIKit.framework in Frameworks */,
 				54CB2793157DD1FC00FBCF13 /* Foundation.framework in Frameworks */,
-				54CB2795157DD1FC00FBCF13 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +48,7 @@
 		54CB2781157DD1FC00FBCF13 = {
 			isa = PBXGroup;
 			children = (
-				54CB2796157DD1FC00FBCF13 /* NSData+MD5Digest */,
+				54CB2796157DD1FC00FBCF13 /* NSData+SHA256Digest */,
 				54CB278F157DD1FC00FBCF13 /* Frameworks */,
 				54CB278D157DD1FC00FBCF13 /* Products */,
 			);
@@ -57,7 +57,7 @@
 		54CB278D157DD1FC00FBCF13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54CB278C157DD1FC00FBCF13 /* NSData+MD5Digest.app */,
+				54CB278C157DD1FC00FBCF13 /* NSData+SHA256Digest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,24 +65,24 @@
 		54CB278F157DD1FC00FBCF13 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				54CB2790157DD1FC00FBCF13 /* UIKit.framework */,
+				68F6C3B51889236000401154 /* CoreGraphics.framework */,
 				54CB2792157DD1FC00FBCF13 /* Foundation.framework */,
-				54CB2794157DD1FC00FBCF13 /* CoreGraphics.framework */,
+				68F6C3B31889235700401154 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		54CB2796157DD1FC00FBCF13 /* NSData+MD5Digest */ = {
+		54CB2796157DD1FC00FBCF13 /* NSData+SHA256Digest */ = {
 			isa = PBXGroup;
 			children = (
 				54CB27AF157DD73800FBCF13 /* AppDelegate.h */,
 				54CB27B0157DD73800FBCF13 /* AppDelegate.m */,
-				54CB27B1157DD73900FBCF13 /* NSData+MD5Digest.h */,
-				54CB27B2157DD73900FBCF13 /* NSData+MD5Digest.m */,
+				54CB27B1157DD73900FBCF13 /* NSData+SHA256Digest.h */,
+				54CB27B2157DD73900FBCF13 /* NSData+SHA256Digest.m */,
 				54CB2797157DD1FC00FBCF13 /* Supporting Files */,
 			);
-			name = "NSData+MD5Digest";
-			path = "NSData+MD5";
+			name = "NSData+SHA256Digest";
+			path = "NSData+SHA256";
 			sourceTree = "<group>";
 		};
 		54CB2797157DD1FC00FBCF13 /* Supporting Files */ = {
@@ -90,8 +90,8 @@
 			children = (
 				54CB27BA157DD75E00FBCF13 /* en.lproj */,
 				54CB27B5157DD74700FBCF13 /* main.m */,
-				54CB27B6157DD74700FBCF13 /* NSData+MD5Digest-Info.plist */,
-				54CB27B7157DD74700FBCF13 /* NSData+MD5Digest-Prefix.pch */,
+				54CB27B6157DD74700FBCF13 /* NSData+SHA256Digest-Info.plist */,
+				54CB27B7157DD74700FBCF13 /* NSData+SHA256Digest-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -99,9 +99,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		54CB278B157DD1FC00FBCF13 /* NSData+MD5Digest */ = {
+		54CB278B157DD1FC00FBCF13 /* NSData+SHA256Digest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54CB27A4157DD1FC00FBCF13 /* Build configuration list for PBXNativeTarget "NSData+MD5Digest" */;
+			buildConfigurationList = 54CB27A4157DD1FC00FBCF13 /* Build configuration list for PBXNativeTarget "NSData+SHA256Digest" */;
 			buildPhases = (
 				54CB2788157DD1FC00FBCF13 /* Sources */,
 				54CB2789157DD1FC00FBCF13 /* Frameworks */,
@@ -111,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = "NSData+MD5Digest";
-			productName = "NSData+MD5";
-			productReference = 54CB278C157DD1FC00FBCF13 /* NSData+MD5Digest.app */;
+			name = "NSData+SHA256Digest";
+			productName = "NSData+SHA256";
+			productReference = 54CB278C157DD1FC00FBCF13 /* NSData+SHA256Digest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +124,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 54CB2786157DD1FC00FBCF13 /* Build configuration list for PBXProject "NSData+MD5Digest" */;
+			buildConfigurationList = 54CB2786157DD1FC00FBCF13 /* Build configuration list for PBXProject "NSData+SHA256Digest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -136,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54CB278B157DD1FC00FBCF13 /* NSData+MD5Digest */,
+				54CB278B157DD1FC00FBCF13 /* NSData+SHA256Digest */,
 			);
 		};
 /* End PBXProject section */
@@ -158,7 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54CB27B3157DD73900FBCF13 /* AppDelegate.m in Sources */,
-				54CB27B4157DD73900FBCF13 /* NSData+MD5Digest.m in Sources */,
+				54CB27B4157DD73900FBCF13 /* NSData+SHA256Digest.m in Sources */,
 				54CB27B8157DD74700FBCF13 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,9 +214,9 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSData+MD5Digest/NSData+MD5Digest-Prefix.pch";
-				INFOPLIST_FILE = "NSData+MD5Digest/NSData+MD5Digest-Info.plist";
-				PRODUCT_NAME = "NSData+MD5Digest";
+				GCC_PREFIX_HEADER = "NSData+SHA256Digest/NSData+SHA256Digest-Prefix.pch";
+				INFOPLIST_FILE = "NSData+SHA256Digest/NSData+SHA256Digest-Info.plist";
+				PRODUCT_NAME = "NSData+SHA256Digest";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -226,9 +226,9 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSData+MD5Digest/NSData+MD5Digest-Prefix.pch";
-				INFOPLIST_FILE = "NSData+MD5Digest/NSData+MD5Digest-Info.plist";
-				PRODUCT_NAME = "NSData+MD5Digest";
+				GCC_PREFIX_HEADER = "NSData+SHA256Digest/NSData+SHA256Digest-Prefix.pch";
+				INFOPLIST_FILE = "NSData+SHA256Digest/NSData+SHA256Digest-Info.plist";
+				PRODUCT_NAME = "NSData+SHA256Digest";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -236,7 +236,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54CB2786157DD1FC00FBCF13 /* Build configuration list for PBXProject "NSData+MD5Digest" */ = {
+		54CB2786157DD1FC00FBCF13 /* Build configuration list for PBXProject "NSData+SHA256Digest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54CB27A2157DD1FC00FBCF13 /* Debug */,
@@ -245,7 +245,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54CB27A4157DD1FC00FBCF13 /* Build configuration list for PBXNativeTarget "NSData+MD5Digest" */ = {
+		54CB27A4157DD1FC00FBCF13 /* Build configuration list for PBXNativeTarget "NSData+SHA256Digest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54CB27A5157DD1FC00FBCF13 /* Debug */,

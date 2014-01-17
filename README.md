@@ -1,10 +1,13 @@
-## NSData+MD5
+## NSData+SHA256
 
-NSData category to add MD5 digest and hex digest.
+NSData category to add SHA256 digest and hex digest.
 
 ### Author
 
-Francis Chong francis@ignition.hk
+Hiroshi Kuwabara kuwabara@beenos.com
+
+forked from https://github.com/siuying/NSData-MD5
+by Francis Chong francis@ignition.hk
 
 ### License
 

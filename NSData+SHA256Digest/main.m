@@ -1,9 +1,9 @@
 //
 //  main.m
-//  NSData+MD5Digest
+//  NSData+SHA256Digest
 //
-//  Created by Francis Chong on 12年6月5日.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Created by Hiroshi Kuwabara on 1/17/14.
+//  Copyright (c) 2014 Beenos. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

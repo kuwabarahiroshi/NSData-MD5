@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'NSData+MD5Digest' target in the 'NSData+MD5Digest' project
+// Prefix header for all source files of the 'NSData+SHA256Digest' target in the 'NSData+SHA256Digest' project
 //
 
 #import <Availability.h>
@@ -9,6 +9,5 @@
 #endif
 
 #ifdef __OBJC__
-    #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
