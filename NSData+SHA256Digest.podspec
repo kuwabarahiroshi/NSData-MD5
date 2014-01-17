@@ -9,5 +9,4 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.requires_arc = true
   s.source_files = 'NSData+SHA256Digest/NSData+SHA256Digest.{h,m}'
-  s.clean_paths  = "NSData+SHA256Digest.xcodeproj"
 end
